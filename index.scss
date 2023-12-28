@@ -9,23 +9,12 @@
         text-decoration: underline;
     }
 }
-
-.principal{
-    height: 70vh;
+form{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    form{
-        // height: fit-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-    }
-}
-span{
-    font-size: 60px;
+    flex-direction: column;
 }
 #search{
     width: 550px;
@@ -36,22 +25,13 @@ span{
     border: solid rgb(179, 174, 174);
     outline: none;
 }
-
-// .blue {
-//     color: blue;
-// }
-// .red {
-//     color: red;
-// }
-// .yellow {
-//     color: yellow;
-// }
-// .green {
-//     color: green;
-// }
-
 #icon{
     position: absolute;
     margin-left: 20px;
     margin-top: 44px;
+}
+input{
+    margin: 5px;
+    height: 35px;
+    width: 150px;
 }

@@ -10,22 +10,12 @@
   text-decoration: underline;
 }
 
-.principal {
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.principal form {
+form {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
-}
-
-span {
-  font-size: 60px;
 }
 
 #search {
@@ -42,4 +32,10 @@ span {
   position: absolute;
   margin-left: 20px;
   margin-top: 44px;
+}
+
+input {
+  margin: 5px;
+  height: 35px;
+  width: 150px;
 }/*# sourceMappingURL=index.css.map */
